@@ -1,0 +1,33 @@
+# Source files (only ship dist)
+src/
+examples/
+docs/
+
+# Development files
+.storybook/
+*.stories.*
+*.test.*
+*.spec.*
+jest.config.*
+rollup.config.*
+tsconfig*.json
+.eslintrc.*
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+
+# Git
+.git/
+.gitignore
+
+# CI/CD
+.github/
+
+# Documentation (keep README.md)
+docs/
+CHANGELOG.md
+
+# Development dependencies
+node_modules/
